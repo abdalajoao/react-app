@@ -1,8 +1,12 @@
-import React from 'react'
+
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <div>
+    <a href ="https://github.com/abdalajoao/react-app" >GitHub link</a>
+
+
+    </div>
   )
 }
 
