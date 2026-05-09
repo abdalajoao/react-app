@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "genre": "Sci-Fi",
+    "year": 2010,
+    "rating": 8.8,
+    "watched": true,
+    "image": "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+    "description": "A thief who steals corporate secrets through dream-sharing technology."
+  },
+  {
+    "id": 2,
+    "title": "The Godfather",
+    "genre": "Crime",
+    "year": 1972,
+    "rating": 9.2,
+    "watched": true,
+    "image": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsLeMUpXAdc9j.jpg",
+    "description": "The aging patriarch of an organized crime dynasty transfers control to his son."
+  },
+  {
+    "id": 3,
+    "title": "Interstellar",
+    "genre": "Sci-Fi",
+    "year": 2014,
+    "rating": 8.6,
+    "watched": false,
+    "image": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    "description": "A team of explorers travel through a wormhole in space."
+  },
+  {
+    "id": 4,
+    "title": "Parasite",
+    "genre": "Thriller",
+    "year": 2019,
+    "rating": 8.5,
+    "watched": false,
+    "image": "https://image.tmdb.org/t/p/w500/7IiTTgloROVKtYKRKMZSMRJXM3F.jpg",
+    "description": "A poor family schemes to become employed by a wealthy family."
+  },
+  {
+    "id": 5,
+    "title": "The Dark Knight",
+    "genre": "Action",
+    "year": 2008,
+    "rating": 9.0,
+    "watched": true,
+    "image": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "description": "Batman faces the Joker, a criminal mastermind who wants to plunge Gotham into anarchy."
+  }
+]

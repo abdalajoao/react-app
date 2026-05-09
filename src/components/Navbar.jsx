@@ -1,6 +1,13 @@
+import { Link } from "react-router-dom";
 
-export default function Navbar() {
+function Navbar() {
   return (
-    <div>Our to-do-app Name</div>
-  )
+    <nav className="navbar">
+      <Link to="/">
+        <h1>🎬 CineList</h1>
+      </Link>
+    </nav>
+  );
 }
+
+export default Navbar;
