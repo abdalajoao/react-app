@@ -6,7 +6,9 @@ function MovieList({ movies, onDelete }) {
       {movies.map((movie) => (
         <MovieCard key={movie.id} movie={movie} onDelete={onDelete} />
       ))}
+    
     </div>
+    
   );
 }
 

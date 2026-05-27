@@ -1,9 +1,31 @@
 import { useState } from "react";
+
 import moviesData from "../data/movies.json";
 import MovieList from "../components/MovieList";
 
+//import AddMovieForm from "../components/AddMovieForm";
+
 function DashboardPage() {
   const [movies, setMovies] = useState(moviesData);
+
+  //add movie
+  /* const addMovie = (newMovie) => {
+    setMovies((prev) => [...movies, newMovie]); */
+/*   }
+ */
+  //updateMovie 
+
+  /* const updateMovie = (id, updateMovie) => {
+
+    const updateMovies = movies.map((movie) => {
+      if (movie.id === id) {
+
+        return { ...movie, title: updatedMoveTitle}
+      };
+      return movie;
+    });
+    setMovies(updatedMovies);
+  } */
 
   const handleDelete = (id) => {
     setMovies((prev) => prev.filter((m) => m.id !== id));

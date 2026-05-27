@@ -8,11 +8,31 @@ import DashboardPage from "./pages/DashboardPage";
 import MovieDetailsPage from "./pages/MovieDetailsPage";
 import AboutPage from "./pages/AboutPage";
 import NotFoundPage from "./pages/NotFoundPage";
+import MovieList from "./components/MovieList";
+import SearchBar from "./components/SearchBar"
+import { useState } from "react";
+import moviesData from "./data/movies.json";
 
 function App() {
+    const [movies] = useState(moviesData || []);
+    const [search, setSearch] = useState("");
+    
+    const filteredMovies = (()=> {
+      if (search.trim() === "") {
+        return [];
+      }
+    return movies?.filter((movie) => {
+      const movieTitle = movie.title || "";
+      return movieTitle.toLowerCase().includes(search.toLowerCase());
+  }) 
+ })();
+
+ 
+
   return (
     <div className="app-layout">
       <Navbar />
+      <SearchBar search={search} setSearch={setSearch} />
       <div className="main-layout">
         <Sidebar />
         <main className="content">
@@ -26,6 +46,10 @@ function App() {
         </main>
       </div>
       <Footer />
+      
+      
+      <MovieList movies={filteredMovies} />
+      
     </div>
   );
 }

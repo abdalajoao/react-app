@@ -1,15 +1,18 @@
-import { Link } from "react-router-dom";
-
-function Sidebar() {
+function Footer() {
   return (
-    <aside className="sidebar">
-      <ul>
-        <li><Link to="/">🏠 Home</Link></li>
-        <li><Link to="/dashboard">🎥 Movies</Link></li>
-        <li><Link to="/about">👥 About</Link></li>
-      </ul>
-    </aside>
+    <footer className="footer">
+      <p>
+        🎬 CineList · Built with React ·{" "}
+        <a
+          href="https://github.com/yourusername/react-app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          View on GitHub
+        </a>
+      </p>
+    </footer>
   );
 }
 
-export default Sidebar;
+export default Footer;
