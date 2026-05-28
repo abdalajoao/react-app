@@ -8,6 +8,7 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background: #0a0e1a;
   color: #e0e6f0;
+  /* margin: 0; */
 }
 
 .app-layout {
@@ -95,6 +96,7 @@ body {
   margin-bottom: 1rem;
   font-size: 1.8rem;
   text-shadow: 0 0 10px rgba(0, 212, 255, 0.4);
+  text-align: center;
 }
 
 .page a {
@@ -380,24 +382,28 @@ body {
   border-radius: 10px;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
+  
 }
 
 .about-section h3 {
   color: #00d4ff;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .about-section p {
   color: #a0b4cc;
   line-height: 1.6;
+  text-align: center;
 }
 
 .team-card {
   background: #0a0e1a;
   border: 1px solid #1a3a5c;
   border-radius: 8px;
-  padding: 1rem;
+  padding: 2rem;
   margin-top: 1rem;
+  text-align: center;
 }
 
 .team-card h4 {
@@ -414,6 +420,7 @@ body {
 .team-links {
   display: flex;
   gap: 1rem;
+ justify-content: center;
 }
 
 .team-links a {
@@ -436,15 +443,16 @@ input {
 
   padding: 4px;
   width: 300px;
-  margin-left: 20px;
+  margin-left: 760px;
   margin-top: 8px;
-  margin-right: 2px;
+  margin-right: 4px;
+  
   
   border: 1px solid #1a3a5c;
 
   align-self: flex-end;
 
-
+  color: white;
   background: #1a1a2e;
   border-radius: 8px;
   overflow: hidden;
