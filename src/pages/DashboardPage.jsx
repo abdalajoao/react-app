@@ -1,20 +1,9 @@
-import { useState, useEffect } from "react";
-import moviesData from "../data/movies.json";
+import { useState } from "react";
 import MovieList from "../components/MovieList";
 import AddMovieForm from "../components/AddMovieForm";
 
-function DashboardPage() {
-  const [movies, setMovies] = useState(() => {
-    const saved = localStorage.getItem("movies");
-    return saved ? JSON.parse(saved) : moviesData;
-  });
-
+function DashboardPage({ movies, setMovies }) {
   const [showForm, setShowForm] = useState(false);
-
-  // useEffect — saves movies to localStorage whenever the list changes
-  useEffect(() => {
-    localStorage.setItem("movies", JSON.stringify(movies));
-  }, [movies]);
 
   const handleDelete = (id) => {
     setMovies((prev) => prev.filter((m) => m.id !== id));

@@ -8,11 +8,15 @@ import DashboardPage from "./pages/DashboardPage";
 import MovieDetailsPage from "./pages/MovieDetailsPage";
 import AboutPage from "./pages/AboutPage";
 import NotFoundPage from "./pages/NotFoundPage";
+//import SearchBar from "./components/SearchBar"
+
+//import moviesData from "./data/movies.json";
 
 function App() {
   return (
     <div className="app-layout">
       <Navbar />
+      {/* <SearchBar search={search} setSearch={setSearch} /> */}
       <div className="main-layout">
         <Sidebar />
         <main className="content">
@@ -26,6 +30,7 @@ function App() {
         </main>
       </div>
       <Footer />
+      
     </div>
   );
 }

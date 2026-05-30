@@ -16,18 +16,27 @@ function AboutPage() {
         <h3>👨‍💻 The Team</h3>
 
         <div className="team-card">
-          <h4>Your Name Here</h4>
-          <p>Full Stack Developer in training 🚀</p>
+          <h4>João & Eugénie</h4>
+          <p>Full Stack Developers in training 🚀</p>
+
           <div className="team-links">
-            <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">
-              🐙 GitHub
+            <a
+              href="https://github.com/yourusername"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer">
-              💼 LinkedIn
+
+            <a
+              href="https://linkedin.com/in/yourusername"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
             </a>
           </div>
         </div>
-
       </div>
     </div>
   );

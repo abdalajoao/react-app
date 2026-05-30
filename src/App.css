@@ -8,6 +8,10 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background: #0a0e1a;
   color: #e0e6f0;
+<<<<<<< HEAD
+=======
+  /* margin: 0; */
+>>>>>>> d2eadbb0ac241fb32dc6abd31bbcaef5b45570bf
 }
 
 .app-layout {
@@ -95,6 +99,10 @@ body {
   margin-bottom: 1rem;
   font-size: 1.8rem;
   text-shadow: 0 0 10px rgba(0, 212, 255, 0.4);
+<<<<<<< HEAD
+=======
+  text-align: center;
+>>>>>>> d2eadbb0ac241fb32dc6abd31bbcaef5b45570bf
 }
 
 .page a {
@@ -380,24 +388,42 @@ body {
   border-radius: 10px;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
+<<<<<<< HEAD
+=======
+  
+>>>>>>> d2eadbb0ac241fb32dc6abd31bbcaef5b45570bf
 }
 
 .about-section h3 {
   color: #00d4ff;
   margin-bottom: 1rem;
+<<<<<<< HEAD
+=======
+  text-align: center;
+>>>>>>> d2eadbb0ac241fb32dc6abd31bbcaef5b45570bf
 }
 
 .about-section p {
   color: #a0b4cc;
   line-height: 1.6;
+<<<<<<< HEAD
+=======
+  text-align: center;
+>>>>>>> d2eadbb0ac241fb32dc6abd31bbcaef5b45570bf
 }
 
 .team-card {
   background: #0a0e1a;
   border: 1px solid #1a3a5c;
   border-radius: 8px;
+<<<<<<< HEAD
   padding: 1rem;
   margin-top: 1rem;
+=======
+  padding: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+>>>>>>> d2eadbb0ac241fb32dc6abd31bbcaef5b45570bf
 }
 
 .team-card h4 {
@@ -414,6 +440,10 @@ body {
 .team-links {
   display: flex;
   gap: 1rem;
+<<<<<<< HEAD
+=======
+ justify-content: center;
+>>>>>>> d2eadbb0ac241fb32dc6abd31bbcaef5b45570bf
 }
 
 .team-links a {
@@ -428,4 +458,31 @@ body {
 
 .team-links a:hover {
   border-color: #00d4ff;
+<<<<<<< HEAD
 }
+=======
+}
+
+/* Search bar */
+
+input {
+
+  padding: 4px;
+  width: 300px;
+  margin-left: 760px;
+  margin-top: 8px;
+  margin-right: 4px;
+  
+  
+  border: 1px solid #1a3a5c;
+
+  align-self: flex-end;
+
+  color: white;
+  background: #1a1a2e;
+  border-radius: 8px;
+  overflow: hidden;
+
+
+} 
+>>>>>>> d2eadbb0ac241fb32dc6abd31bbcaef5b45570bf
